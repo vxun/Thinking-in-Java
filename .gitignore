@@ -3,3 +3,6 @@
 /.settings
 /bin/chapter11/*.class
 /bin/com/zhangxiuwu/util/*.class
+/bin/chapter11/practice/*.class
+/bin/chapter12/*.class
+*.class
