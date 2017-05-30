@@ -10,6 +10,7 @@ import com.zhangxiuwu.util.*;
 
 /**
  * @author ZhangXiuwu
+ * LinkedList 和 PriorityQueue 的差异在排序行为上， 而不再性能上
  *
  */
 public class QueueBehavior {
@@ -37,7 +38,10 @@ public class QueueBehavior {
 		}
 	}
 	
-	
+	/**
+	 * 	除了优先级队列，Queue将精确的按照插入的顺序产生（先进先出）
+	 * @param args
+	 */
 	public static void main(String[] args) {
 		test(new LinkedList<String>(), new Gen());
 		test(new PriorityQueue<String>(), new Gen());
